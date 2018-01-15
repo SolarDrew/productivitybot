@@ -37,3 +37,9 @@ skills:
 
   ## Hello world (https://github.com/opsdroid/skill-hello)
   - name: hello
+
+  - name: remind
+    path: /home/drew/opsdroid-projects/productivitybot/skill-remind
+    no-cache: true
+    reminders:
+      - "* * * * *": "This is a reminder"
