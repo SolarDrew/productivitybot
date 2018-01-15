@@ -1,0 +1,39 @@
+##                      _           _     _
+##   ___  _ __  ___  __| |_ __ ___ (_) __| |
+##  / _ \| '_ \/ __|/ _` | '__/ _ \| |/ _` |
+## | (_) | |_) \__ \ (_| | | | (_) | | (_| |
+##  \___/| .__/|___/\__,_|_|  \___/|_|\__,_|
+##       |_|
+##                   __ _
+##   ___ ___  _ __  / _(_) __ _
+##  / __/ _ \| _` \| |_| |/ _` |
+## | (_| (_) | | | |  _| | (_| |
+##  \___\___/|_| |_|_| |_|\__, |
+##                        |___/
+##
+## A default config file to use with opsdroid
+
+## Set the logging level
+# logging:
+#   level: debug
+#   path: opsdroid.log
+#   console: true
+
+## Set the location for opsdroid to install modules
+# module-path: "."
+
+## Connector modules
+connectors:
+  - name: matrix
+    mxid: "@ProductivityBot:matrix.org"
+    password: ""
+    room: "#tan:matrix.org"
+    no-cache: true
+  - name: websocket
+
+
+## Skill modules
+skills:
+
+  ## Hello world (https://github.com/opsdroid/skill-hello)
+  - name: hello
