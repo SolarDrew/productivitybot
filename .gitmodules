@@ -1,3 +1,6 @@
 [submodule "skill-remind"]
 	path = skill-remind
 	url = git@github.com:SolarDrew/skill-remind.git
+[submodule "skill-fitness"]
+	path = skill-fitness
+	url = git@github.com:SolarDrew/skill-fitness.git
