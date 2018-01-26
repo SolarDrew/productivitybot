@@ -42,4 +42,6 @@ skills:
     path: /home/drew/opsdroid-projects/productivitybot/skill-remind
     no-cache: true
     reminders:
-      - "* * * * *": "This is a reminder"
+      - "30 8 * * 1-5": "Get going SolarDrew, got to brush your teeth and stuff"
+      - "30 12 * * 1-5": "Go and get some lunch, SolarDrew"
+      - "0 * * * *": "@room, time to get up and move around a bit"
